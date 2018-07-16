@@ -48,11 +48,11 @@ export default class NavBarLanding extends Component {
           </div>
           <Link to="/landing" class="brand-logo center hide-on-large-only valign-wrapper"><img src="/googlelogo.png" className="valign-middle"></img></Link>
           <ul id="nav-mobile" className="right">
-            <li className="hide-on-med-and-down"><Link to="/salud" href="sass.html" className={this.state.textColor}>SALUD</Link></li>
-            <li className="hide-on-med-and-down"><Link to="/tecnologia" href="badges.html" className={this.state.textColor}>TECNOLOGÍA</Link></li>
-            <li className="hide-on-med-and-down"><Link to="/estilodevida" href="badges.html" className={this.state.textColor}>ESTILO DE VIDA</Link></li>
-            <li className="hide-on-med-and-down"><Link to="/tramites" href="collapsible.html" className={this.state.textColor}>TRAMITES</Link></li>
-            <li className="hide-on-med-and-down"><a className={this.state.textColor}><i className="material-icons">search</i></a></li>
+            <li className="hide-on-med-and-down bold"><Link to="/salud" href="sass.html" className={this.state.textColor}>SALUD</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/tecnologia" href="badges.html" className={this.state.textColor}>TECNOLOGÍA</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/estilodevida" href="badges.html" className={this.state.textColor}>ESTILO DE VIDA</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/tramites" href="collapsible.html" className={this.state.textColor}>TRAMITES</Link></li>
+            <li className="hide-on-med-and-down bold"><a className={this.state.textColor}><i className="material-icons">search</i></a></li>
             <li><a onClick={this.toggleNavBar} className={this.state.textColor}><i className="material-icons">menu</i></a></li>
           </ul>
         </div>

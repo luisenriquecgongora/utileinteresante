@@ -13,7 +13,7 @@ class EstiloDeVida extends Component {
     return (
       <div className="robotoFont row">
         <NavBar></NavBar>
-        <h1 className="center white-text">ESTILO DE VIDA</h1>
+        <h3 className="center white-text">ESTILO DE VIDA</h3>
         <div className="marginTop">
             <img src="/modifiedBack.jpg" className="bg"></img>
             <div className="row fullSides white">

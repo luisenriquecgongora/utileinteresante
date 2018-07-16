@@ -13,7 +13,7 @@ class Salud extends Component {
     return (
       <div className="robotoFont row">
         <NavBar></NavBar>
-        <h1 className="center white-text">SALUD</h1>
+        <h3 className="center white-text">SALUD</h3>
         <div className="marginTop">
             <img src="/modifiedBack.jpg" className="bg"></img>
             <div className="row fullSides white">
