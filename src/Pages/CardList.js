@@ -9,7 +9,7 @@ import {
 class CardList extends Component {
   render() {
     return (
-      <div className="row">
+      <div className="row OswaldFont">
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">

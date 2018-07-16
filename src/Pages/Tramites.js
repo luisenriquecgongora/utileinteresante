@@ -11,12 +11,12 @@ import CardList from './CardList';
 class Tramites extends Component {
   render() {
     return (
-      <div className="robotoFont row">
+      <div className="robotoFont row OswaldFont">
         <NavBar></NavBar>
         <h3 className="center white-text">TRÁMITES</h3>
         <div className="marginTop">
             <img src="/modifiedBack.jpg" className="bg"></img>
-            <div className="row fullSides white">
+            <div className="row fullSides white roundedBorder">
               <CardList></CardList>
             </div>
         </div>

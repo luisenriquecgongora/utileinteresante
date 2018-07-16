@@ -9,8 +9,8 @@ import {
 class Subscribe extends Component {
   render() {
     return (
-      <div className="white">
-        <p className="black-text no-margin bold">SUSCRÍBETE Y RECIBE NOVEDADES</p>
+      <div className="">
+        <p className="black-text no-margin bold OswaldFont">SUSCRÍBETE Y RECIBE NOVEDADES</p>
         <div class="card-content black-text ">
           <div className="suscribeContainer">
             <input className="inputSubscribeFooter" placeholder="Recibe tu correo"></input>

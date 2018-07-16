@@ -11,7 +11,7 @@ class Relacionados extends Component {
   render() {
     return (
       <div className="col s12">
-        <h5 className="grey-text bold">RELACIONADOS</h5>
+        <h5 className="grey-text bold OswaldFont">RELACIONADOS</h5>
         <CardList></CardList>
       </div>
     );

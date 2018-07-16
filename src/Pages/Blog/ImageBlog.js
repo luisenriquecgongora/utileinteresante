@@ -9,10 +9,10 @@ import {
 class ImageBlog extends Component {
   render() {
     return (
-      <div class="card">
+      <div class="card OswaldFont">
         <div class="card-image">
-          <img src="/background.png"></img>
-          <span class="card-title flow-text normal-line-height">ENTRE LAS CORDILLERAS DE CANTA SE ENCUENTRA LAS LAGUNAS DE CALANCAYO</span>
+          <img src="/firstImageBlog.png"></img>
+          <span class="card-title">ENTRE LAS CORDILLERAS DE CANTA, SE ENCUENTRA LA LAGUNA DE CALANCAYO. (FOTO: MEDRANO TOURS)</span>
         </div>
       </div>
     );

@@ -5,16 +5,22 @@ import Subscribe from './Subscribe';
 export default class Footer extends Component {
   render(){
     return (
-      <footer className="page-footer white">
+      <footer className="page-footer gradFooter OpenSansFont">
+        <div className="container">
+          <div className="row hide-on-large-only">
+            <div className="col s9">
+              <h6 className="grey-text text-darken-3 leftSpacing bold">INFORMACIÓN AL USUARIO</h6>
+            </div>
+            <div className="col s3">
+              <i className="material-icons grey-text right">keyboard_arrow_down</i>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="row">
             <div className="col l2 s6 valign-wrapper">
-              <div className="row">
-                <div className="col s12 valign-wrapper">
-                  <img src="/america_logo_footer.png"></img>
-                  <p className="grey-text text-darken-3 leftSpacing">América</p>
-                </div>
-              </div>
+              <img src="/america_logo_footer.png"></img>
+              <h6 className="grey-text text-darken-3 leftSpacing bold">América</h6>
             </div>
             <div className="col l3 s6 hide-on-med-and-down">
               <a className="grey-text text-darken-1" href="#!">Políticas de Privacidad<br/></a>
@@ -50,6 +56,8 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="footer-copyright">
         </div>
       </footer>
     )

@@ -10,9 +10,9 @@ class MiniDescription extends Component {
   render() {
     return (
       <div>
-        <p class="black-text justify-text">Es parte de la Sierra y se encuentra en Es parte de la Sierra y se encuentra en
-          Es parte de la Sierra y se encuentra en Es parte de la Sierra y se encuentra en
-          Es parte de la Sierra y se encuentra en Es parte de la Sierra y se encuentra en</p>
+        <p class="black-text justify-text OpenSansFont">Esta parte de la sierra de Lima, además de contar con un agradable clima,
+           cuenta con paisajes naturales poco conocidos por el turismo, 
+          entre ellos la Laguna de Calancayo, conocida por sus colores que varían entre turquesa, verde y azul.</p>
       </div>
     );
   }

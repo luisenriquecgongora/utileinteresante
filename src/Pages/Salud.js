@@ -11,7 +11,7 @@ import CardList from './CardList';
 class Salud extends Component {
   render() {
     return (
-      <div className="robotoFont row">
+      <div className="robotoFont row OswaldFont">
         <NavBar></NavBar>
         <h3 className="center white-text">SALUD</h3>
         <div className="marginTop">

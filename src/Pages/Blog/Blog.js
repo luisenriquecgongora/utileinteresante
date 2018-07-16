@@ -15,20 +15,19 @@ import ImageBlog from './ImageBlog';
 import TagSection from './TagSection';
 import CommentSection from './CommentSection';
 import Relacionados from './Relacionados';
+import Catcher from './Catcher';
 
 class Blog extends Component {
   render() {
     return (
-      <div className="robotoFont row">
-        <NavBar></NavBar>
+      <div className="row">
+        <NavBar startingColor="black"></NavBar>
         <div className="marginTop">
-            <img src="/background.png" className="bg"></img>
+            <img src="/backgroundBlog.jpg" className="bg"></img>
             <div className="row fullSides white">
               <img src="/contenidopatrocinado.png" className="responsive-img fullWidth"></img>
-              <h5 className="black-text center bold">LIMA TIENE UNA LAGUNA DE 7 COLORES</h5>
-              <h5 className="black-text center flow-text">Difruta un día entero al máximo Difruta un día entero al máximo
-                                            Difruta un día entero al máximo Difruta un día entero al máximo Difruta un día entero al máximo</h5>
-              <div className="col s12 m8">
+              <Catcher></Catcher>
+              <div className="col s12 m8 roundedBorder">
                 <ImageBlog></ImageBlog>
                 <MiniDescription></MiniDescription>
                 <MiniLargeAd></MiniLargeAd>

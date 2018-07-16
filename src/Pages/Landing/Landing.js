@@ -13,7 +13,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="robotoFont row">
-        <NavBar></NavBar>
+        <NavBar startingColor="black"></NavBar>
         <div className="hide-on-large-only">
           <img src="/background.png" className="bgLanding"></img>
           <div className="marginLanding robotoFont">
