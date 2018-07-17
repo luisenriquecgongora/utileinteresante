@@ -199,8 +199,95 @@ body {
   border-radius: 3px;
 }
 
-.no-margin{
+.roundedBorderBig{
+  border-radius:10px !important;
+}
+
+.margin-top-no{
+  margin-left: -20px !important;
+  padding-left: 20px !important;
+  margin-top: -14px !important;
+}
+
+.nonothing{
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.noheight{
+  height: 0px !important;
   margin: 0px !important;
+  padding: 0px !important;
+}
+
+.FixedHeightContainer{
+  height: 290px;
+  overflow-x: scroll !important;
+  white-space: nowrap !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.containerImage{
+  position: relative;
+  margin-top: 0px !important;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-left: 1%;
+}
+
+.text-block {
+  position: absolute;
+  width: 90%;
+  height: 40%;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+}
+
+.purpleBack{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  height: 250px;
+  background-color: rgba(50,250,30,0.3);
+  -webkit-transition: height 0.1s;
+  transition:height 0.1s;
+}
+
+.containerImage:hover > .purpleBack{
+  height: 270px;
+}
+
+.containerImage:hover > .memeContainer{
+  min-width: 210px;
+  height: 270px;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.textInsideDiv{
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+.text-inside-block{
+  height: auto;
+  width:200px !important;
+  word-wrap: break-word !important;
+}
+
+.memeContainer{
+  min-width: 200px;
+  height: 250px;
+  margin-left: 1%;
+  overflow-x: scroll !important;
+  -webkit-transition: min-width 0.1s, height 0.1s;
+  transition: min-width 0.1s, height 0.1s;
 }
 
 .fullScreenOverLay{

@@ -16,7 +16,7 @@ class Salud extends Component {
         <h3 className="center white-text">SALUD</h3>
         <div className="marginTop">
             <img src="/modifiedBack.jpg" className="bg"></img>
-            <div className="row fullSides white">
+            <div className="row fullSides white roundedBorder">
               <CardList></CardList>
             </div>
         </div>

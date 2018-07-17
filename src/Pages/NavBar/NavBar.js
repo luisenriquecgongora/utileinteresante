@@ -8,9 +8,32 @@ export default class NavBarLanding extends Component {
       navBarActive: false,
       textColor : (this.props.startingColor=="black")?'black-text':'white-text',
       navBarColor: (this.props.startingColor=="black")?'white':'transparent gradNavBar',
-      util_e_interesante_logo: (this.props.startingColor=="black")?'/util_e_interesante_black.png':'util_e_interesante_white.png'
+      util_e_interesante_logo: (this.props.startingColor=="black")?'/util_e_interesante_black.png':'util_e_interesante_white.png',
+      lefBarActive: false
       };
     this.toggleNavBar = this.toggleNavBar.bind(this);
+    this.toggleAmericaBar =  this.toggleAmericaBar.bind(this);
+  }
+
+  toggleAmericaBar(e){
+    var textColor = 'black-text'
+    var navBarColor = 'transparent gradNavBar'
+    var util_e_interesante_logo = '/util_e_interesante_black.png'
+    if(this.state.navBarActive && this.props.startingColor!="black"){
+      textColor = 'white-text'
+      navBarColor = 'transparent gradNavBar'
+      util_e_interesante_logo = '/util_e_interesante_white.png'
+    }else{
+      textColor = 'black-text'
+      navBarColor = 'white'
+      util_e_interesante_logo = '/util_e_interesante_black.png'
+    }
+    this.setState({
+      lefBarActive: !this.state.lefBarActive,
+      textColor:textColor,
+      navBarColor:navBarColor,
+      util_e_interesante_logo:util_e_interesante_logo
+     })
   }
 
   toggleNavBar(e){
@@ -41,11 +64,23 @@ export default class NavBarLanding extends Component {
         <div className="nav-wrapper">
           <div class="little-left-pad left">
             <span className="valign-wrapper">
-              <img src="/logo_america.png"></img>
+              <img src="/logo_america.png" onClick={this.toggleAmericaBar}></img>
+              {!this.state.lefBarActive ?
+                <i className="material-icons grey-text">keyboard_arrow_down</i>
+                :
+                <i className="material-icons grey-text">keyboard_arrow_up</i>
+              }
               <Link to="/landing" className="valign-wrapper">
-              <i className="material-icons grey-text">keyboard_arrow_down</i>
               <img src={this.state.util_e_interesante_logo} href="/landing" className="hide-on-med-and-down"></img></Link>
             </span>
+            {this.state.lefBarActive &&
+              <div className="white margin-top-no">
+                <p className="black-text OswaldFont">EN VIVO</p>
+                <p className="black-text OswaldFont bold">ENTRETENIMIENTO</p>
+                <p className="black-text OswaldFont">NOTICIAS</p>
+                <p className="black-text OswaldFont">DEPORTE</p>
+              </div>
+            }
           </div>
           <Link to="/landing" class="brand-logo center hide-on-large-only valign-wrapper"><img src={this.state.util_e_interesante_logo} className="valign-middle"></img></Link>
           <ul id="nav-mobile" className="right OswaldFont">

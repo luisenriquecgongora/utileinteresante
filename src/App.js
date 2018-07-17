@@ -27,7 +27,7 @@ class App extends Component {
               <Route path='*/tramites' component={Tramites}/>
               <Route path='*/blog' component={Blog}/>
               <Route path="*/" render={() => (
-                <Redirect to='/Blog'/>
+                <Redirect to='/landing'/>
               )}/>
             </Switch>
             <Footer></Footer>

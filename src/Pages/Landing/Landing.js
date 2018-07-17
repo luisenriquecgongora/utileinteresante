@@ -8,6 +8,7 @@ import {
 import NavBar from '../NavBar/NavBar';
 import CardList from '../CardList';
 import CardStarter from './CardStarter';
+import MemeUtilitario from './MemeUtilitario';
 
 class Landing extends Component {
   render() {
@@ -25,24 +26,17 @@ class Landing extends Component {
         <div className="container">
           <CardStarter></CardStarter>
           <div className="col s12">
-            <h5 className="grey-text bold center hide-on-large-only">ESPECIAL</h5>
-            <h5 className="grey-text bold hide-on-med-and-down">ESPECIAL</h5>
+            <h5 className="grey-text bold center hide-on-large-only OswaldFont">ESPECIAL</h5>
+            <h5 className="grey-text bold hide-on-med-and-down OswaldFont">ESPECIAL</h5>
           </div>
           <div className="row">
             <img src="/especialImage.png" className="responsive-img"></img>
           </div>
-          <div className="col s12">
-            <h5 className="grey-text bold center hide-on-large-only">MEME UTILITARIO</h5>
-            <h5 className="grey-text bold hide-on-med-and-down">MEME UTILITARIO</h5>
-          </div>
-          <div className="row">
-            <img src="/memeutilitarioSmall.png" className="responsive-img hide-on-large-only"></img>
-            <img src="/memeutilitario.png" className="responsive-img hide-on-med-and-down"></img>
-          </div>
+          <MemeUtilitario></MemeUtilitario>
           <div className="row">
             <div className="col s12">
-              <h5 className="grey-text bold center hide-on-large-only">LO ÚLTIMO</h5>
-              <h5 className="grey-text bold hide-on-med-and-down">LO ÚLTIMO</h5>
+              <h5 className="grey-text bold center hide-on-large-only OswaldFont">LO ÚLTIMO</h5>
+              <h5 className="grey-text bold hide-on-med-and-down OswaldFont">LO ÚLTIMO</h5>
             </div>
             <CardList></CardList>
           </div>

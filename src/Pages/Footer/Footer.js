@@ -5,7 +5,7 @@ import Subscribe from './Subscribe';
 export default class Footer extends Component {
   render(){
     return (
-      <footer className="page-footer gradFooter OpenSansFont">
+      <footer className="gradFooter OpenSansFont">
         <div className="container">
           <div className="row hide-on-large-only">
             <div className="col s9">
@@ -17,7 +17,7 @@ export default class Footer extends Component {
           </div>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row nonothing">
             <div className="col l2 s6 valign-wrapper">
               <img src="/america_logo_footer.png"></img>
               <h6 className="grey-text text-darken-3 leftSpacing bold">América</h6>
@@ -56,8 +56,6 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="footer-copyright">
         </div>
       </footer>
     )
