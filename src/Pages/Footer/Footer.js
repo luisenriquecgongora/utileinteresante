@@ -5,7 +5,7 @@ import Subscribe from './Subscribe';
 export default class Footer extends Component {
   render(){
     return (
-      <footer className="gradFooter OpenSansFont">
+      <footer className="white OpenSansFont">
         <div className="container">
           <div className="row hide-on-large-only">
             <div className="col s9">

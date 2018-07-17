@@ -23,22 +23,25 @@ class Landing extends Component {
               <p className="white-text center">Disfruta de un día entero al máximo y conoce este destino turístico muy cerca de Lima</p>
           </div>
         </div>
-        <div className="container">
-          <CardStarter></CardStarter>
-          <div className="col s12">
-            <h5 className="grey-text bold center hide-on-large-only OswaldFont">ESPECIAL</h5>
-            <h5 className="grey-text bold hide-on-med-and-down OswaldFont">ESPECIAL</h5>
-          </div>
-          <div className="row">
-            <img src="/especialImage.png" className="responsive-img"></img>
-          </div>
-          <MemeUtilitario></MemeUtilitario>
-          <div className="row">
+
+        <div className="row fullSides white">
+          <div>
+            <CardStarter></CardStarter>
             <div className="col s12">
-              <h5 className="grey-text bold center hide-on-large-only OswaldFont">LO ÚLTIMO</h5>
-              <h5 className="grey-text bold hide-on-med-and-down OswaldFont">LO ÚLTIMO</h5>
+              <h5 className="grey-text bold center hide-on-large-only OswaldFont">ESPECIAL</h5>
+              <h5 className="grey-text bold hide-on-med-and-down OswaldFont">ESPECIAL</h5>
             </div>
-            <CardList></CardList>
+            <div className="row">
+              <img src="/especialImage.png" className="responsive-img"></img>
+            </div>
+            <MemeUtilitario></MemeUtilitario>
+            <div className="row">
+              <div className="col s12">
+                <h5 className="grey-text bold center hide-on-large-only OswaldFont">LO ÚLTIMO</h5>
+                <h5 className="grey-text bold hide-on-med-and-down OswaldFont">LO ÚLTIMO</h5>
+              </div>
+              <CardList></CardList>
+            </div>
           </div>
         </div>
       </div>

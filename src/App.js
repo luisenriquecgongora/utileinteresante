@@ -16,7 +16,7 @@ import Footer from './Pages/Footer/Footer';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="NewspaperMode">
         <BrowserRouter>
           <div>
             <Switch>

@@ -62,8 +62,8 @@ export default class NavBarLanding extends Component {
       <div className="navbar-fixed">
       <nav className={this.state.navBarColor}>
         <div className="nav-wrapper">
-          <div class="little-left-pad left">
-            <span className="valign-wrapper">
+          <div class="little-left-pad left leftMargined">
+            <span className="valign-wrapper ">
               <img src="/logo_america.png" onClick={this.toggleAmericaBar}></img>
               {!this.state.lefBarActive ?
                 <i className="material-icons grey-text">keyboard_arrow_down</i>
@@ -74,7 +74,7 @@ export default class NavBarLanding extends Component {
               <img src={this.state.util_e_interesante_logo} href="/landing" className="hide-on-med-and-down"></img></Link>
             </span>
             {this.state.lefBarActive &&
-              <div className="white margin-top-no">
+              <div className="white margin-top-no leftBarWidth">
                 <p className="black-text OswaldFont">EN VIVO</p>
                 <p className="black-text OswaldFont bold">ENTRETENIMIENTO</p>
                 <p className="black-text OswaldFont">NOTICIAS</p>
@@ -83,7 +83,7 @@ export default class NavBarLanding extends Component {
             }
           </div>
           <Link to="/landing" class="brand-logo center hide-on-large-only valign-wrapper"><img src={this.state.util_e_interesante_logo} className="valign-middle"></img></Link>
-          <ul id="nav-mobile" className="right OswaldFont">
+          <ul id="nav-mobile" className="right OswaldFont rightMargined">
             <li className="hide-on-med-and-down bold"><Link to="/salud" href="sass.html" className={this.state.textColor}>SALUD</Link></li>
             <li className="hide-on-med-and-down bold"><Link to="/tecnologia" href="badges.html" className={this.state.textColor}>TECNOLOGÍA</Link></li>
             <li className="hide-on-med-and-down bold"><Link to="/estilodevida" href="badges.html" className={this.state.textColor}>ESTILO DE VIDA</Link></li>
