@@ -9,7 +9,7 @@ import {
 class Subscribe extends Component {
   render() {
     return (
-      <div className="">
+      <div className="marginBot">
         <p className="black-text no-margin bold OswaldFont">SUSCRÍBETE Y RECIBE NOVEDADES</p>
         <div class="card-content black-text ">
           <div className="suscribeContainer">

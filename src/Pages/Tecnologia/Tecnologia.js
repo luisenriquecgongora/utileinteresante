@@ -5,19 +5,19 @@ import {
   Route,
   Link, Switch, Redirect
 } from 'react-router-dom';
-import NavBar from './NavBar/NavBar';
-import CardList from './CardList';
+import NavBar from '../NavBar/NavBar';
+import CardListTecnologia from './CardListTecnologia';
 
-class Salud extends Component {
+class Tecnologia extends Component {
   render() {
     return (
       <div className="robotoFont row OswaldFont">
         <NavBar></NavBar>
-        <h3 className="center white-text">SALUD</h3>
+        <h3 className="center white-text OswaldFont">TECNOLOGIA</h3>
         <div className="marginTop">
-            <img src="/modifiedBack.jpg" className="bg"></img>
+            <img src="" className="bg blue"></img>
             <div className="row fullSides white roundedBorder">
-              <CardList></CardList>
+              <CardListTecnologia></CardListTecnologia>
             </div>
         </div>
       </div>
@@ -25,4 +25,4 @@ class Salud extends Component {
   }
 }
 
-export default Salud;
+export default Tecnologia;

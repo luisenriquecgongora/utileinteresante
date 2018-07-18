@@ -13,9 +13,9 @@ import MemeUtilitario from './MemeUtilitario';
 class Landing extends Component {
   render() {
     return (
-      <div>
       <div className="robotoFont row">
         <NavBar startingColor="black"></NavBar>
+
         <div className="hide-on-large-only">
           <img src="/background.png" className="bgLanding"></img>
           <div className="marginLanding robotoFont">
@@ -24,30 +24,31 @@ class Landing extends Component {
               <p className="white-text center">Disfruta de un día entero al máximo y conoce este destino turístico muy cerca de Lima</p>
           </div>
         </div>
-        <div className="row fullSides white">
-          <div>
-            <CardStarter></CardStarter>
-            <div className="col s12">
-              <h5 className="grey-text bold center hide-on-large-only OswaldFont">ESPECIAL</h5>
-              <h5 className="grey-text bold hide-on-med-and-down OswaldFont">ESPECIAL</h5>
-            </div>
-            <div className="row">
-              <Link to='/especial'>
-                <img src="/especialImage.png" className="responsive-img"></img>
-              </Link>
-            </div>
-            <MemeUtilitario></MemeUtilitario>
-            <div className="row">
+        <div className="marginTop">
+          <div className="row fullSides white">
+            <img src="/backgroundBlog.jpg" className="bg hide-on-med-and-down"></img>
+            <div className="">
+              <CardStarter></CardStarter>
               <div className="col s12">
-                <h5 className="grey-text bold center hide-on-large-only OswaldFont">LO ÚLTIMO</h5>
-                <h5 className="grey-text bold hide-on-med-and-down OswaldFont">LO ÚLTIMO</h5>
+                <h5 className="grey-text bold center hide-on-large-only OswaldFont">ESPECIAL</h5>
+                <h5 className="grey-text bold hide-on-med-and-down OswaldFont">ESPECIAL</h5>
               </div>
-              <CardListLanding></CardListLanding>
+              <div className="row">
+                <Link to='/especial'>
+                  <img src="/especialImage.png" className="responsive-img"></img>
+                </Link>
+              </div>
+              <MemeUtilitario></MemeUtilitario>
+              <div className="row">
+                <div className="col s12">
+                  <h5 className="grey-text bold center hide-on-large-only OswaldFont">LO ÚLTIMO</h5>
+                  <h5 className="grey-text bold hide-on-med-and-down OswaldFont">LO ÚLTIMO</h5>
+                </div>
+                <CardListLanding></CardListLanding>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
       </div>
     );
   }

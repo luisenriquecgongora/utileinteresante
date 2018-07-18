@@ -39,8 +39,6 @@ class Blog extends Component {
                 <MiniLargeAd></MiniLargeAd>
                 <TagSection></TagSection>
                 <CommentSection></CommentSection>
-
-
               </div>
               <div className="col s12 m4">
                 <div class="card hide-on-med-and-down">

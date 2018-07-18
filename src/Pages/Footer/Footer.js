@@ -6,6 +6,16 @@ export default class Footer extends Component {
   render(){
     return (
       <footer className="white OpenSansFont">
+        <div className="footerAd hide-on-large-only">
+          <div className="row">
+            <div className="col s3">
+              <img className="responsive-img" src="/miniAd.png"></img>
+            </div>
+            <div className="col s9 left">
+              <h6 className="xsmall-text grey-text left">Imperdible <br></br> <span className="black-text bold">NAO EL ROBOT MULTIUSOS LLEGA AL PERU</span></h6>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="row hide-on-large-only">
             <div className="col s9">
@@ -34,9 +44,9 @@ export default class Footer extends Component {
                 <img src="/instagram_logo.png"></img>
               </div>
               <div className="col s10">
-                <p className="grey-text text-darken-1 leftSpacing no-margin">Facebook</p>
-                <p className="grey-text text-darken-1 leftSpacing no-margin">Twitter</p>
-                <p className="grey-text text-darken-1 leftSpacing no-margin">Instagram</p>
+                <p className="grey-text text-darken-1 leftSpacing no-margin-abs">Facebook</p>
+                <p className="grey-text text-darken-1 leftSpacing no-margin-abs">Twitter</p>
+                <p className="grey-text text-darken-1 leftSpacing no-margin-abs">Instagram</p>
               </div>
             </div>
             <div className="col l5 s6 hide-on-med-and-down">
@@ -56,6 +66,11 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row hide-on-large-only white-text">
+            a<br></br>
+            a<br></br>
+            a<br></br>
         </div>
       </footer>
     )

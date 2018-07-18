@@ -6,13 +6,13 @@ import {
   Link, Switch, Redirect
 } from 'react-router-dom';
 
-import CardList from '../CardList';
+import CardListTurismo from '../Turismo/CardListTurismo';
 class Relacionados extends Component {
   render() {
     return (
       <div className="col s12">
         <h5 className="grey-text bold OswaldFont">RELACIONADOS</h5>
-        <CardList></CardList>
+        <CardListTurismo></CardListTurismo>
       </div>
     );
   }

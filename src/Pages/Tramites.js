@@ -13,9 +13,9 @@ class Tramites extends Component {
     return (
       <div className="robotoFont row OswaldFont">
         <NavBar></NavBar>
-        <h3 className="center white-text">TRÁMITES</h3>
+        <h3 className="center white-text OswaldFont">TRÁMITES</h3>
         <div className="marginTop">
-            <img src="/modifiedBack.jpg" className="bg"></img>
+            <img src="" className="bg grey"></img>
             <div className="row fullSides white roundedBorder">
               <CardList></CardList>
             </div>

@@ -17,11 +17,12 @@ body {
   top: 0;
   left: 0;
   /* Preserve aspet ratio */
-  min-width: 100%;
-  max-height: 20%;
+  max-width: 100%;
+  max-height: 50%;
    z-index: -9999;
   background-color: green;
 }
+
 
 .bgLanding{
   position: absolute;
@@ -29,8 +30,8 @@ body {
   left: 0;
   /* Preserve aspet ratio */
   max-width: 100%;
-  height: 50%;
-   z-index: -9999;
+  min-height: 75%;
+  z-index: -9999;
   background-color: green;
   overflow: hidden;
 }
@@ -58,6 +59,10 @@ body {
 
 .marginTop{
   padding-top: 0%;
+}
+
+.marginTopTurismo{
+  padding-top: 30%;
 }
 
 .marginLanding{
@@ -301,10 +306,30 @@ body {
   background: rgba(0,0,0,0.3)
 }
 
+
 .card-title{
-  font-size: small !important;
+  font-size: large !important;
   padding-left: 2% !important;
   padding-bottom: 0px !important;
+}
+
+
+.small-text{
+  font-size: small !important;
+}
+
+
+.xsmall-text{
+  font-size: xx-small !important;
+}
+
+.margined{
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+.offsetTop{
+  margin-top: -25% !important;
 }
 
 .material-icons{
@@ -326,10 +351,126 @@ body {
   width: 150px;
 }
 
+.borderStrong{
+  border: 1px solid rgba(180,180,180,0.5);
+}
+
+.little-padding-left{
+  padding-left: 2%;
+}
+
+.heightMobile{
+    min-height: 10%;
+}
+
+.no-margin-padding-sides{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 2px !important;
+}
+.no-margin-top{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 2% !important;
+}
+
+.no-margin-abs{
+  margin: 0px;
+}
+
+.marginBot{
+  margin-bottom: 1% !important;
+  padding-bottom: 1% !important;
+}
+
+.centeredVCard{
+  margin-bottom: 60% !important;
+}
+
+.centeredVCard2{
+  margin-bottom: 15% !important;
+}
+
+.centeredHCard{
+  margin-right: 35% !important;
+}
+
+.centeredhCard2{
+  margin-left: 10% !important;
+}
+
+.footerAd {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+.large-text{
+  font-size: x-large !important;
+}
+
+.littleFont{
+  font-size: 10px !important;
+}
+
+.innerPadding{
+  padding: 4%;
+}
+
+.bgTurismo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  width: 100%;
+  min-height: 10%;
+   z-index: -9999;
+}
+
 @media only screen and (min-width: 1200px) {
+    .littleSpaceTop{
+      margin-top: 2%;
+    }
+
+    .bgLanding{
+      position: absolute;
+      top: 0;
+      left: 10%;
+      /* Preserve aspet ratio */
+      max-width: 800%;
+      min-height: 75%;
+      z-index: -9999;
+      background-color: green;
+      overflow: hidden;
+    }
+
+    .bgTurismo{
+      position: absolute;
+      top: 0;
+      left: 10%;
+      /* Preserve aspet ratio */
+      width: 80%;
+      min-height: auto;
+       z-index: -9999;
+    }
+
+    .innerPadding{
+      padding: 2%;
+    }
+
     .marginTop {
         padding-top: 10%;
     }
+
+    .marginTopTurismo{
+      padding-top: 15%;
+    }
+
     .fullSides{
       margin-left: 20% !important;
       width: 65% !important;
