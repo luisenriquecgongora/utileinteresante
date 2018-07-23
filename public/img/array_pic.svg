@@ -1,0 +1,20 @@
+<svg id="Group_6108" data-name="Group 6108" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.397 34.397">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(17,17,17,0.98);
+        opacity: 0.555;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="14.552" cy="14.552" r="14.552" transform="translate(2.646 2.646)"/>
+  <path id="Path_8408" data-name="Path 8408" class="cls-2" d="M17.2,0A17.2,17.2,0,1,0,34.4,17.2,17.2,17.2,0,0,0,17.2,0Zm0,30.957A13.759,13.759,0,1,1,30.957,17.2,13.774,13.774,0,0,1,17.2,30.957Z" transform="translate(0 0)"/>
+  <g id="Group_3248" data-name="Group 3248" transform="translate(8.599 10.876)">
+    <rect id="Rectangle_2953" data-name="Rectangle 2953" class="cls-2" width="14.364" height="10.09" rx="1" transform="translate(0 2.809)"/>
+    <path id="Subtraction_2" data-name="Subtraction 2" class="cls-2" d="M12.9,9.913v0a1.984,1.984,0,0,0,.187-.846V2.974a2,2,0,0,0-2-2H.728A1.983,1.983,0,0,0-.1,1.152,2.01,2.01,0,0,1,1.716,0H12.08a2,2,0,0,1,2,2V8.09a2.005,2.005,0,0,1-1.173,1.821Z" transform="translate(3.119 0)"/>
+  </g>
+</svg>

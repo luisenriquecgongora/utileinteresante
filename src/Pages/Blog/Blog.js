@@ -23,9 +23,9 @@ class Blog extends Component {
       <div className="row">
         <NavBar startingColor="black"></NavBar>
         <div className="marginTop">
-            <img src="/backgroundBlog.jpg" className="bg"></img>
+            <img src="/img/backgroundBlog.jpg" className="bg"></img>
             <div className="row fullSides white">
-              <img src="/contenidopatrocinado.png" className="responsive-img fullWidth"></img>
+              <img src="/img/contenidopatrocinado.png" className="responsive-img fullWidth"></img>
               <Catcher></Catcher>
               <div className="col s12 m8 roundedBorder">
                 <ImageBlog></ImageBlog>
@@ -43,7 +43,7 @@ class Blog extends Component {
               <div className="col s12 m4">
                 <div class="card hide-on-med-and-down">
                   <div class="card-image">
-                    <img src="/sideView.png"></img>
+                    <img src="/img/sideView.png"></img>
                   </div>
                 </div>
                 <Subscribe></Subscribe>

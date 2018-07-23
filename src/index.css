@@ -4,6 +4,31 @@ body {
   font-family: sans-serif;
 }
 
+
+
+.logoNavabar{
+  height: 30px;
+  width: 30px;
+}
+
+.littleleftMargined{
+  margin-left: 10px;
+}
+
+.logoNavabarArrow{
+  height: 15px;
+  width: 15px;
+}
+
+.logoUtilInteresante{
+  height: 20px;
+  margin-top: 20px;
+}
+
+.iconNavBar{
+ padding-top: 50%;
+}
+
 .OswaldFont{
   font-family: 'Oswald', sans-serif;
 }
@@ -220,12 +245,19 @@ body {
 .FixedHeightContainer{
   height: 290px;
   overflow-x: scroll !important;
+  overflow-y:auto;
   white-space: nowrap !important;
 }
 
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+.FixedHeightContainer::-webkit-scrollbar {
+    position: absolute;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.titleText{
+    font-size: large;
 }
 
 .containerImage{
@@ -379,6 +411,10 @@ body {
   margin: 0px;
 }
 
+.no-padding-abs{
+  padding: 0px;
+}
+
 .marginBot{
   margin-bottom: 1% !important;
   padding-bottom: 1% !important;
@@ -402,7 +438,7 @@ body {
 
 .footerAd {
     position: fixed;
-    left: 0;
+    left: 0%;
     bottom: 0;
     width: 100%;
     background-color: white;
@@ -435,6 +471,11 @@ body {
 @media only screen and (min-width: 1200px) {
     .littleSpaceTop{
       margin-top: 2%;
+    }
+
+    .logoUtilInteresante{
+      height: 30px;
+      margin-top: 0px;
     }
 
     .bgLanding{
@@ -493,6 +534,22 @@ body {
 
     .leftMargined{
       margin-left: 18%;
+    }
+
+    .leftMargined2{
+      margin-left: 7%;
+    }
+
+    .leftMarginedFixed{
+      margin-left: 19%;
+    }
+
+    .leftMarginedActive{
+      padding-left: 6%;
+    }
+
+    .cardSize{
+      min-height: 300px !important;
     }
 
     .NewspaperMode{

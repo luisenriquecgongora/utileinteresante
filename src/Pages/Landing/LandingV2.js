@@ -17,7 +17,7 @@ class Landing extends Component {
         <NavBar startingColor="black"></NavBar>
 
         <div className="hide-on-large-only">
-          <img src="/background.png" className="bgLanding"></img>
+          <img src="/img/background.png" className="bgLanding"></img>
           <div className="marginLanding robotoFont">
               <h6 className="white-text center bold">TURISMO</h6>
               <Link to="/blog"><h5 className="white-text center">LIMA TIENE UNA LAGUNA DE 7 COLORES QUE PUEDES VISITAR POR 50 SOLES</h5></Link>
@@ -26,7 +26,7 @@ class Landing extends Component {
         </div>
         <div className="marginTop">
           <div className="row fullSides white">
-            <img src="/backgroundBlog.jpg" className="bg hide-on-med-and-down"></img>
+            <img src="/img/backgroundBlog.jpg" className="bg hide-on-med-and-down"></img>
             <div className="">
               <CardStarter></CardStarter>
               <div className="col s12">
@@ -35,7 +35,7 @@ class Landing extends Component {
               </div>
               <div className="row">
                 <Link to='/especial'>
-                  <img src="/especialImage.png" className="responsive-img"></img>
+                  <img src="/img/especialImage.png" className="responsive-img"></img>
                 </Link>
               </div>
               <MemeUtilitario></MemeUtilitario>

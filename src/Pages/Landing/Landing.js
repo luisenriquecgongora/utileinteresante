@@ -17,11 +17,11 @@ class Landing extends Component {
       <div className="robotoFont row">
         <NavBar startingColor="black"></NavBar>
         <div className="hide-on-large-only">
-          <img src="/background.png" className="bgLanding"></img>
-          <div className="marginLanding robotoFont">
+          <img src="/img/background.png" className="bgLanding"></img>
+          <div className="marginLanding OswaldFont">
               <h6 className="white-text center bold">TURISMO</h6>
-              <Link to="/blog"><h5 className="white-text center">LIMA TIENE UNA LAGUNA DE 7 COLORES QUE PUEDES VISITAR POR 50 SOLES</h5></Link>
-              <p className="white-text center">Disfruta de un día entero al máximo y conoce este destino turístico muy cerca de Lima</p>
+              <Link to="/blog"><h5 className="white-text center titleText">LIMA TIENE UNA LAGUNA DE 7 COLORES QUE PUEDES VISITAR POR 50 SOLES</h5></Link>
+              <p className="white-text center robotoFont">Disfruta de un día entero al máximo y conoce este destino turístico muy cerca de Lima</p>
           </div>
         </div>
         <div className="row fullSides white">
@@ -33,7 +33,7 @@ class Landing extends Component {
             </div>
             <div className="row">
               <Link to='/especial'>
-                <img src="/especialImage.png" className="responsive-img"></img>
+                <img src="/img/especialImage.png" className="responsive-img"></img>
               </Link>
             </div>
             <MemeUtilitario></MemeUtilitario>

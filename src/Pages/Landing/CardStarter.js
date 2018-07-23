@@ -13,19 +13,19 @@ class CardStarter extends Component {
         <div className="col s12 m8 hide-on-med-and-down">
           <div class="card">
             <div class="card-image">
-              <Link to ="/blog"><img src="/backgroundMultiBig.png"></img></Link>
+              <Link to ="/blog"><img src="/img/backgroundMultiBig.png"></img></Link>
             </div>
           </div>
         </div>
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/backgroundMultiSmall.png"></img>
+              <img src="/img/backgroundMultiSmall.png"></img>
             </div>
           </div>
           <div class="card">
             <div class="card-image">
-              <img src="/backgroundMultiSmall.png"></img>
+              <img src="/img/backgroundMultiSmall.png"></img>
             </div>
           </div>
         </div>

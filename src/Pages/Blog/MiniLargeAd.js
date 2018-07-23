@@ -16,7 +16,7 @@ class MiniLargeAd extends Component {
             <h5 className="black-text">[MONTAÑA DE SIETE COLORES : COMO LLEGAR Y CUÁNTO CUESTA]</h5>
           </div>
           <div className="col s5 center">
-            <img src="/montainImg.png" className="responsive-img center"></img>
+            <img src="/img/montainImg.png" className="responsive-img center"></img>
           </div>
         </div>
       </div>

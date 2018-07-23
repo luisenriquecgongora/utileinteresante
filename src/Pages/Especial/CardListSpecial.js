@@ -14,8 +14,8 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp1.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/esp1.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>
@@ -24,8 +24,8 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp2.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/gallerybut.png"></img></a>
+                <img src="/img/esp2.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/img/array_pic.svg"></img></a>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>
@@ -34,7 +34,7 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp3.png"></img>
+                <img src="/img/esp3.png"></img>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>
@@ -45,8 +45,8 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp4.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/esp4.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>
@@ -55,7 +55,7 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp5.png"></img>
+                <img src="/img/esp5.png"></img>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>
@@ -64,8 +64,8 @@ class CardListSpecial extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/esp6.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/esp6.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard left waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
                 <h3 class="card-title">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
               </div>

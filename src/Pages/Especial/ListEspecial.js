@@ -14,8 +14,8 @@ class ListEspecial extends Component {
           <div className="col s12 m4">
             <div class="card horizontal valign-wrapper OpenSansFont bold lime green-text text-darken-4">
               <div class="card-image little-padding-left">
-                <img src="/imgList1.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList1.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -27,8 +27,8 @@ class ListEspecial extends Component {
           <div className="col s12 m4">
             <div class="card horizontal valign-wrapper OpenSansFont bold green white-text">
               <div class="card-image little-padding-left">
-                <img src="/imgList2.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList2.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -40,8 +40,8 @@ class ListEspecial extends Component {
           <div className="col s12 m4">
             <div class="card horizontal valign-wrapper OpenSansFont bold green darken-3 white-text">
               <div class="card-image little-padding-left">
-                <img src="/imgList3.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList3.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -53,34 +53,34 @@ class ListEspecial extends Component {
         </div>
         <div className="hide-on-med-and-down">
           <div className="col s12 m4">
-            <div className="card">
+            <div className="card cardSize lime">
               <div className="card-image">
-                <img src="/imgList1.png"></img>
-                  <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList1.png"></img>
+                  <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
-              <div className="card-content OpenSansFont bold lime green-text text-darken-4">
+              <div className="card-content OpenSansFont bold green-text text-darken-4">
                 <h6>Gobierno buscará más participación privada en la educación pública</h6>
               </div>
             </div>
           </div>
           <div className="col s12 m4">
-            <div className="card">
+            <div className="card cardSize green">
               <div className="card-image">
-                <img src="/imgList2.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList2.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
-              <div className="card-content OpenSansFont bold green white-text">
+              <div className="card-content OpenSansFont bold white-text">
                 <h6>3 formas de financiar la compra de los útiles escolares</h6>
               </div>
             </div>
           </div>
           <div className="col s12 m4">
-            <div className="card">
+            <div className="card cardSize green darken-3">
               <div className="card-image">
-                <img src="/imgList3.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/imgList3.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard2 waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
-              <div className="card-content OpenSansFont bold green darken-3 white-text">
+              <div className="card-content OpenSansFont bold white-text">
                 <h6>Líderes educativos recibieron capacitación en calidad académica</h6>
               </div>
             </div>

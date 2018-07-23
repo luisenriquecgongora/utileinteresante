@@ -15,10 +15,10 @@ class MemeUtilitario extends Component {
           <h5 className="grey-text bold hide-on-med-and-down OswaldFont">MEME UTILITARIO</h5>
         </div>
         <div className="row">
-          <div className="col s12">
+          <div className="col s12 l7">
             <div className="FixedHeightContainer valign-wrapper">
               <div className="containerImage">
-                <img src="/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
+                <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
                 <div className="purpleBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
@@ -28,7 +28,7 @@ class MemeUtilitario extends Component {
                 </div>
               </div>
               <div className="containerImage">
-                <img src="/memeutilitario2.png" className="roundedBorderBig memeContainer"></img>
+                <img src="/img/memeutilitario2.png" className="roundedBorderBig memeContainer"></img>
                 <div className="purpleBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
@@ -38,7 +38,7 @@ class MemeUtilitario extends Component {
                 </div>
               </div>
               <div className="containerImage">
-                <img src="/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
+                <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
                 <div className="purpleBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
@@ -47,8 +47,10 @@ class MemeUtilitario extends Component {
                 </div>
                 </div>
               </div>
-              <img src="/memeMcDonalds.png" className="roundedBorderBig memeContainer"></img>
             </div>
+          </div>
+          <div className="col l5 hide-on-med-and-down">
+            <img src="/img/memeMcDonalds.png" className="roundedBorderBig memeContainer"></img>
           </div>
         </div>
       </div>

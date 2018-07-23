@@ -6,9 +6,9 @@ export default class NavBarLanding extends Component {
     super(props);
     this.state = {
       navBarActive: false,
-      textColor : (this.props.startingColor=="black")?'black-text':'white-text',
       navBarColor: (this.props.startingColor=="black")?'white':'transparent gradNavBar',
-      util_e_interesante_logo: (this.props.startingColor=="black")?'/util_e_interesante_black.png':'util_e_interesante_white.png',
+      util_e_interesante_logo: (this.props.startingColor=="black")?'/img/util_e_interesante_black.svg':'/img/util_e_interesante_white.svg',
+      color: (this.props.startingColor=="black")?'black':'white',
       lefBarActive: false
       };
     this.toggleNavBar = this.toggleNavBar.bind(this);
@@ -16,44 +16,44 @@ export default class NavBarLanding extends Component {
   }
 
   toggleAmericaBar(e){
-    var textColor = 'black-text'
+    var color = 'black-text'
     var navBarColor = 'transparent gradNavBar'
-    var util_e_interesante_logo = '/util_e_interesante_black.png'
+    var util_e_interesante_logo = '/img/util_e_interesante_black.svg'
     if(this.state.navBarActive && this.props.startingColor!="black"){
-      textColor = 'white-text'
+      color = 'white'
       navBarColor = 'transparent gradNavBar'
-      util_e_interesante_logo = '/util_e_interesante_white.png'
+      util_e_interesante_logo = '/img/util_e_interesante_white.svg'
     }else{
-      textColor = 'black-text'
+      color = 'black'
       navBarColor = 'white'
-      util_e_interesante_logo = '/util_e_interesante_black.png'
+      util_e_interesante_logo = '/img/util_e_interesante_black.svg'
     }
     this.setState({
       lefBarActive: !this.state.lefBarActive,
-      textColor:textColor,
       navBarColor:navBarColor,
-      util_e_interesante_logo:util_e_interesante_logo
+      util_e_interesante_logo:util_e_interesante_logo,
+      color: color
      })
   }
 
   toggleNavBar(e){
-    var textColor = 'black-text'
     var navBarColor = 'transparent gradNavBar'
-    var util_e_interesante_logo = '/util_e_interesante_black.png'
+    var color = 'black-text'
+    var util_e_interesante_logo = '/img/util_e_interesante_black.svg'
     if(this.state.navBarActive && this.props.startingColor!="black"){
-      textColor = 'white-text'
+      color = 'white'
       navBarColor = 'transparent gradNavBar'
-      util_e_interesante_logo = '/util_e_interesante_white.png'
+      util_e_interesante_logo = '/img/util_e_interesante_white.svg'
     }else{
-      textColor = 'black-text'
+      color = 'black'
       navBarColor = 'white'
-      util_e_interesante_logo = '/util_e_interesante_black.png'
+      util_e_interesante_logo = '/img/util_e_interesante_black.svg'
     }
     this.setState({
       navBarActive: !this.state.navBarActive,
-      textColor:textColor,
       navBarColor:navBarColor,
-      util_e_interesante_logo:util_e_interesante_logo
+      util_e_interesante_logo:util_e_interesante_logo,
+      color : color
      })
   }
 
@@ -63,16 +63,18 @@ export default class NavBarLanding extends Component {
       <nav className={this.state.navBarColor}>
         <div className="nav-wrapper">
           <div class="little-left-pad left leftMargined">
-            <span className="valign-wrapper ">
-              <img src="/logo_america.png" onClick={this.toggleAmericaBar}></img>
+            <div className="valign-wrapper">
+              <img src="/img/logo_america.svg" onClick={this.toggleAmericaBar} className="logoNavabar"></img>
               {!this.state.lefBarActive ?
-                <i className="material-icons grey-text">keyboard_arrow_down</i>
+                <img onClick={this.toggleAmericaBar} src={"/img/arrow_down_"+this.state.color+".svg"} className="littleleftMargined logoNavabarArrow"></img>
                 :
-                <i className="material-icons grey-text">keyboard_arrow_up</i>
+                <img onClick={this.toggleAmericaBar} src={"/img/arrow_up_"+this.state.color+".svg"} className="littleleftMargined logoNavabarArrow"></img>
               }
-              <Link to="/landing" className="valign-wrapper">
-              <img src={this.state.util_e_interesante_logo} href="/landing" className="hide-on-med-and-down"></img></Link>
-            </span>
+              <i className="material-icons grey-text"></i>
+              <Link to="/landing" className="valign-wrapper littleleftMargined hide-on-med-and-down">
+                <img src={this.state.util_e_interesante_logo} href="/landing" className="logoUtilInteresante"></img>
+              </Link>
+            </div>
             {this.state.lefBarActive &&
               <div className="white margin-top-no leftBarWidth">
                 <p className="black-text OswaldFont">EN VIVO</p>
@@ -82,20 +84,20 @@ export default class NavBarLanding extends Component {
               </div>
             }
           </div>
-          <Link to="/landing" class="brand-logo center hide-on-large-only valign-wrapper"><img src={this.state.util_e_interesante_logo} className="valign-middle"></img></Link>
+          <img src={this.state.util_e_interesante_logo} href="/landing" className="brand-logo center hide-on-large-only logoUtilInteresante"></img>
           <ul id="nav-mobile" className="right OswaldFont rightMargined">
-            <li className="hide-on-med-and-down bold"><Link to="/salud" href="sass.html" className={this.state.textColor}>SALUD</Link></li>
-            <li className="hide-on-med-and-down bold"><Link to="/tecnologia" href="badges.html" className={this.state.textColor}>TECNOLOGÍA</Link></li>
-            <li className="hide-on-med-and-down bold"><Link to="/estilodevida" href="badges.html" className={this.state.textColor}>ESTILO DE VIDA</Link></li>
-            <li className="hide-on-med-and-down bold"><Link to="/tramites" href="collapsible.html" className={this.state.textColor}>TRAMITES</Link></li>
-            <li className="hide-on-med-and-down bold"><a className={this.state.textColor}><i className="material-icons">search</i></a></li>
-            <li><a onClick={this.toggleNavBar} className={this.state.textColor}><i className="material-icons">menu</i></a></li>
+            <li className="hide-on-med-and-down bold"><Link to="/salud" href="sass.html" className={this.state.color + '-text'}>SALUD</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/tecnologia" href="badges.html" className={this.state.color + '-text'}>TECNOLOGÍA</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/estilodevida" href="badges.html" className={this.state.color + '-text'}>ESTILO DE VIDA</Link></li>
+            <li className="hide-on-med-and-down bold"><Link to="/tramites" href="collapsible.html" className={this.state.color + '-text'}>TRAMITES</Link></li>
+            <li className="hide-on-med-and-down bold"><a><img src={"/img/search_icon_"+this.state.color+".svg"} className="logoNavabar iconNavBar"></img></a></li>
+            <li><a onClick={this.toggleNavBar}><img src={"/img/sandwich_"+this.state.color+".svg"} className="logoNavabar iconNavBar"></img></a></li>
           </ul>
         </div>
         {
           this.state.navBarActive &&
           <div className="OswaldFont">
-            <div className="row white">
+            <div className="row white leftMarginedActive">
               <div className="container">
                 <div className="row">
                   <div className="col s12 m4 black-text">

@@ -15,7 +15,7 @@ class Salud extends Component {
         <NavBar></NavBar>
         <h3 className="center white-text OswaldFont">SALUD</h3>
         <div className="marginTop">
-            <img src="/backnutricion.png" className="bg"></img>
+            <img src="/img/backnutricion.png" className="bg"></img>
             <div className="row fullSides white roundedBorder">
               <CardListSalud></CardListSalud>
             </div>

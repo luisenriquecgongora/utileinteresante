@@ -18,7 +18,7 @@ class Landing extends Component {
       <div className="row">
         <NavBar startingColor="black"></NavBar>
         <div className="marginTop">
-            <img src="/totusSkin.png" className="bg"></img>
+            <img src="/img/totusSkin.png" className="bg"></img>
             <div className="row fullSides white">
               <StarterSpecial></StarterSpecial>
               <ListEspecial></ListEspecial>

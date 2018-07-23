@@ -14,8 +14,8 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/cardLac.png"></img>
-                <a className="btn-floating transparent halfway-fab waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/cardLac.png"></img>
+                <a className="btn-floating transparent halfway-fab waves-effect waves-light red center centeredVCard"><img src="/img/play_icon.svg"></img></a>
                 <h3 class="card-title"><span className="bold small-text">ESTILO DE VIDA</span> <br></br>
                   ¿Cómo saber si sufres de intolerancia a la lactosa?</h3>
               </div>
@@ -24,7 +24,7 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/canTest.png"></img>
+                <img src="/img/canTest.png"></img>
                 <h3 class="card-title"><span className="bold small-text">SALUD</span> <br></br>
                   CÁNCER TESTICULAR: SÍNTOMAS  A LOS QUE DEBES ESTAR ALERTA</h3>
               </div>
@@ -33,7 +33,7 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div className="card ">
               <div className="card-image">
-                <img src="/weirdLand.png"></img>
+                <img src="/img/weirdLand.png"></img>
               </div>
               <div className="card-content no-margin-padding-sides no-margin-top">
                 <div className="row">
@@ -52,8 +52,8 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div className="card ">
               <div className="card-image center">
-                <img src="/migra.png"></img>
-                <a className="btn-floating transparent halfway-fab waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/migra.png"></img>
+                <a className="btn-floating transparent halfway-fab waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
               </div>
               <div className="card-content no-margin-padding-sides no-margin-top">
                 <div className="row">
@@ -70,7 +70,7 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img src="/canTest.png"></img>
+                <img src="/img/canTest.png"></img>
                 <h3 class="card-title"><span className="bold small-text">SALUD</span> <br></br>
                   CÁNCER TESTICULAR: SÍNTOMAS  A LOS QUE DEBES ESTAR ALERTA</h3>
               </div>
@@ -79,8 +79,8 @@ class CardList extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/cardLac.png"></img>
-                <a className="btn-floating transparent halfway-fab centeredVCard waves-effect waves-light red center"><img src="/playbut.png"></img></a>
+                <img src="/img/cardLac.png"></img>
+                <a className="btn-floating transparent halfway-fab centeredVCard waves-effect waves-light red center"><img src="/img/play_icon.svg"></img></a>
                 <h3 class="card-title"><span className="bold small-text">ESTILO DE VIDA</span> <br></br>
                   ¿Cómo saber si sufres de intolerancia a la lactosa?</h3>
               </div>

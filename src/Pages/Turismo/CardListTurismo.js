@@ -14,7 +14,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi1.png"></img>
+                <img src="/img/turi1.png"></img>
                 <h3 class="card-title">
                   la huaca de la luna abre otro de sus templos al pÚblico </h3>
               </div>
@@ -23,7 +23,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi2.png"></img>
+                <img src="/img/turi2.png"></img>
                 <h3 class="card-title">
                   Lima tiene una “Laguna de 7 colores” que debes visitar</h3>
               </div>
@@ -32,7 +32,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi3.png"></img>
+                <img src="/img/turi3.png"></img>
                 <h3 class="card-title">
                   paracas destino inolivdable lorem ipsum is a simple text</h3>
               </div>
@@ -43,7 +43,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi4.png"></img>
+                <img src="/img/turi4.png"></img>
                 <h3 class="card-title">
                   paracas destino inolivdable lorem ipsum is a simple text</h3>
               </div>
@@ -52,7 +52,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi5.png"></img>
+                <img src="/img/turi5.png"></img>
                 <h3 class="card-title">
                   Las Cataratas de Ahuashiyacu (Tarapoto) - Lo que se debe saber</h3>
               </div>
@@ -61,7 +61,7 @@ class CardListTurismo extends Component {
           <div className="col s12 m4">
             <div class="card ">
               <div class="card-image">
-                <img src="/turi6.png"></img>
+                <img src="/img/turi6.png"></img>
                 <h3 class="card-title">
                   VISITA LOS centros turísticos más importantes de la ciudad del Cusco </h3>
               </div>

@@ -16,8 +16,8 @@ class EstiloDeVida extends Component {
         <h5 className="center white-text OswaldFont hide-on-large-only">TURISMO</h5>
         <h3 className="center white-text OswaldFont hide-on-med-and-down">TURISMO</h3>
         <div className="marginTopTurismo">
-            <img src="/estilodevida.png" className="bgTurismo hide-on-large-only"></img>
-            <img src="/estilodevidaDesktop.png" className="bgTurismo hide-on-med-and-down"></img>
+            <img src="/img/estilodevida.png" className="bgTurismo hide-on-large-only"></img>
+            <img src="/img/estilodevidaDesktop.png" className="bgTurismo hide-on-med-and-down"></img>
             <div className="row fullSides white roundedBorder">
               <CardListTurismo></CardListTurismo>
             </div>

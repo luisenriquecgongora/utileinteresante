@@ -13,7 +13,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -21,7 +21,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -29,7 +29,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -37,7 +37,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -45,7 +45,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -53,7 +53,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -61,7 +61,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -69,7 +69,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
@@ -77,7 +77,7 @@ class CardList extends Component {
         <div className="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="/foodImg.jpg"></img>
+              <img src="/img/foodImg.jpg"></img>
               <span class="card-title bold flow-text">Lorem Ypsum Lorem</span>
             </div>
           </div>
