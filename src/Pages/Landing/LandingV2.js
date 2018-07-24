@@ -26,7 +26,7 @@ class Landing extends Component {
         </div>
         <div className="marginTop">
           <div className="row fullSides white">
-            <img src="/img/backgroundBlog.jpg" className="bg hide-on-med-and-down"></img>
+            <img src="/img/backgroundBlog.jpg" className="bgV2 hide-on-med-and-down"></img>
             <div className="">
               <CardStarter></CardStarter>
               <div className="col s12">

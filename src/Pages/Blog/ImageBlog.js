@@ -11,7 +11,7 @@ class ImageBlog extends Component {
     return (
       <div class="card OswaldFont">
         <div class="card-image">
-          <img src="/firstImageBlog.png"></img>
+          <img src="/img/firstImageBlog.png"></img>
           <span class="card-title">ENTRE LAS CORDILLERAS DE CANTA, SE ENCUENTRA LA LAGUNA DE CALANCAYO. (FOTO: MEDRANO TOURS)</span>
         </div>
       </div>

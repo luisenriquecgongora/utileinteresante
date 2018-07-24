@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <footer className="white OpenSansFont leftMargined2">
         <div className="footerAd leftMarginedFixed">
           <div className="left">
-            <img className="responsive-img left littleleftMargined" src="/miniAd.png"></img>
+            <img className="responsive-img left littleleftMargined" src="/img/miniAd.png"></img>
             <div className="left">
               <div className="left littleleftMargined">
                 <div className="no-margin-abs no-padding-abs"><h6 className="xsmall-text grey-text left no-margin-abs no-padding-abs normal-line-height">¡Imperdible!<br></br></h6></div>
@@ -40,9 +40,9 @@ export default class Footer extends Component {
             </div>
             <div className="col l2 s6 valign-wrapper hide-on-med-and-down">
               <div className="col s1">
-                <img src="/img/facebook_logo.png"></img>
-                <img src="/img/twitter_logo.png"></img>
-                <img src="/img/instagram_logo.png"></img>
+                <img src="/img/facebook_logo_black.svg" className="logofooter"></img>
+                <img src="/img/twitter_logo_black.svg" className="logofooter"></img>
+                <img src="/img/instagram_logo_black.svg" className="logofooter"></img>
               </div>
               <div className="col s10">
                 <p className="grey-text text-darken-1 leftSpacing no-margin-abs">Facebook</p>
@@ -56,13 +56,13 @@ export default class Footer extends Component {
             <div className="col l5 s6 hide-on-large-only">
               <div className="row">
                 <div className="col s4">
-                  <img src="/img/facebook_logo_large.png"></img>
+                  <img src="/img/facebook_logo.svg" className="logoNavabar"></img>
                 </div>
                 <div className="col s4">
-                  <img src="/img/twitter_logo_large.png"></img>
+                  <img src="/img/twitter_logo.svg" className="logoNavabar"></img>
                 </div>
                 <div className="col s4">
-                  <img src="/img/instagram_logo_large.png"></img>
+                  <img src="/img/instagram_logo.svg" className="logoNavabar"></img>
                 </div>
               </div>
             </div>

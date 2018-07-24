@@ -19,7 +19,7 @@ class MemeUtilitario extends Component {
             <div className="FixedHeightContainer valign-wrapper">
               <div className="containerImage">
                 <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
-                <div className="purpleBack">
+                <div className="backMemeDims purpleBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
                   <h6>QUE PUESTO DE UNA</h6>
@@ -29,7 +29,7 @@ class MemeUtilitario extends Component {
               </div>
               <div className="containerImage">
                 <img src="/img/memeutilitario2.png" className="roundedBorderBig memeContainer"></img>
-                <div className="purpleBack">
+                <div className="backMemeDims greenBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
                   <h6>QUE PUESTO DE UNA</h6>
@@ -39,7 +39,7 @@ class MemeUtilitario extends Component {
               </div>
               <div className="containerImage">
                 <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
-                <div className="purpleBack">
+                <div className="backMemeDims orangeBack">
                 <div className="text-block OswaldFont">
                   <h6>SELECCIÓN DE OBJETOS</h6>
                   <h6>QUE PUESTO DE UNA</h6>
@@ -49,8 +49,8 @@ class MemeUtilitario extends Component {
               </div>
             </div>
           </div>
-          <div className="col l5 hide-on-med-and-down">
-            <img src="/img/memeMcDonalds.png" className="roundedBorderBig memeContainer"></img>
+          <div className="col s12 l5 roundedBorderBig right valign-wrapper">
+            <img src="/img/memeMcDonalds.png" className="roundedBorderBig anounceAmerica"></img>
           </div>
         </div>
       </div>
