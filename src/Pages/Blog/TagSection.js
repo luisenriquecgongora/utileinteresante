@@ -11,13 +11,13 @@ class TagSection extends Component {
     return (
       <div className="row OswaldFont">
         <div className="col s3 m3 l2">
-          <h6 className="grey-text flow-text">Etiquetas</h6>
+          <h6 className="grey-text small-textf">Etiquetas</h6>
         </div>
         <div className="col s3 m3 l2">
-          <h5 className="black-text flow-text bold">TURISMO</h5>
+          <h5 className="black-text small-textf bold">TURISMO</h5>
         </div>
-        <div className="col s5 m3">
-          <h5 className="black-text flow-text bold"> ESTILO DE VIDA</h5>
+        <div className="col s5 m3 l5">
+          <h5 className="black-text small-textf bold"> ESTILO DE VIDA</h5>
         </div>
       </div>
     );

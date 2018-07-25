@@ -15,7 +15,6 @@ class Landing extends Component {
     return (
       <div className="robotoFont row">
         <NavBar startingColor="black"></NavBar>
-
         <div className="hide-on-large-only">
           <img src="/img/background.png" className="bgLanding"></img>
           <div className="marginLanding robotoFont">

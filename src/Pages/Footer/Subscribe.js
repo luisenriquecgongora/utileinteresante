@@ -9,12 +9,12 @@ import {
 class Subscribe extends Component {
   render() {
     return (
-      <div className="marginBot">
-        <p className="black-text no-margin bold OswaldFont">SUSCRÍBETE Y RECIBE NOVEDADES</p>
+      <div className="marginBot no-marginTop">
+        <p className="black-text no-margin bold OswaldFont no-marginTop">SUSCRÍBETE Y RECIBE NOVEDADES</p>
         <div class="card-content black-text ">
           <div className="suscribeContainer">
-            <input className="inputSubscribeFooter" placeholder="Recibe tu correo"></input>
-            <button className="okinputSubscribeFooter">OK</button>
+            <input className="inputSubscribeFooter" placeholder="Escribe tu correo"></input>
+            <button className="okinputSubscribeFooter">SUSCRIBIRSE</button>
           </div>
         </div>
       </div>

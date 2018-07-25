@@ -11,8 +11,8 @@ export default class Footer extends Component {
             <img className="responsive-img left littleleftMargined" src="/img/miniAd.png"></img>
             <div className="left">
               <div className="left littleleftMargined">
-                <div className="no-margin-abs no-padding-abs"><h6 className="xsmall-text grey-text left no-margin-abs no-padding-abs normal-line-height">¡Imperdible!<br></br></h6></div>
-                <div className="no-margin-abs no-padding-abs"><h6 className="xsmall-text black-text bold left no-margin-abs no-padding-abs normal-line-height"><br></br>NAO EL ROBOT MULTIUSOS LLEGA AL PERU</h6></div>
+                <div className="no-margin-abs no-padding-abs"><h5 className="xsmall-text grey-text left no-margin-abs no-padding-abs normal-line-height">¡Imperdible!</h5></div>
+                <div className="no-margin-abs no-padding-abs no-marginTop"><h5 className="small-textf black-text bold left no-margin-abs no-padding-abs normal-line-height no-marginTop">NAO EL ROBOT MULTIUSOS LLEGA AL PERU</h5></div>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default class Footer extends Component {
         </div>
         <div className="container">
           <div className="row nonothing">
-            <div className="col l2 s6 valign-wrapper">
+            <div className="col l3 s6 valign-wrapper">
               <img src="/img/america_footer.svg" className="logoNavabar"></img>
               <h6 className="grey-text text-darken-3 leftSpacing bold">América</h6>
             </div>
@@ -50,7 +50,7 @@ export default class Footer extends Component {
                 <p className="grey-text text-darken-1 leftSpacing no-margin-abs">Instagram</p>
               </div>
             </div>
-            <div className="col l5 s6 hide-on-med-and-down">
+            <div className="col l4 s6 hide-on-med-and-down">
               <Subscribe />
             </div>
             <div className="col l5 s6 hide-on-large-only">

@@ -15,15 +15,13 @@ class MemeUtilitario extends Component {
           <h5 className="grey-text bold hide-on-med-and-down OswaldFont">MEME UTILITARIO</h5>
         </div>
         <div className="row">
-          <div className="col s12 l7">
+          <div className="col s12 l8">
             <div className="FixedHeightContainer valign-wrapper">
               <div className="containerImage">
-                <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
+                <img src="/img/MemeUt1.png" className="roundedBorderBig memeContainer"></img>
                 <div className="backMemeDims purpleBack">
                 <div className="text-block OswaldFont">
-                  <h6>SELECCIÓN DE OBJETOS</h6>
-                  <h6>QUE PUESTO DE UNA</h6>
-                  <h6>MANERA BIEN ODERNADA</h6>
+                  <h6 className="text-size-meme">Selección de objetos que puesto de una manera bien ordernada</h6>
                 </div>
                 </div>
               </div>
@@ -31,26 +29,22 @@ class MemeUtilitario extends Component {
                 <img src="/img/memeutilitario2.png" className="roundedBorderBig memeContainer"></img>
                 <div className="backMemeDims greenBack">
                 <div className="text-block OswaldFont">
-                  <h6>SELECCIÓN DE OBJETOS</h6>
-                  <h6>QUE PUESTO DE UNA</h6>
-                  <h6>MANERA BIEN ODERNADA</h6>
+                  <h5>Selección de objetos que puesto de una manera bien ordernada</h5>
                 </div>
                 </div>
               </div>
-              <div className="containerImage">
+              <div className="containerImage left">
                 <img src="/img/memeutilitario1.png" className="roundedBorderBig memeContainer"></img>
                 <div className="backMemeDims orangeBack">
                 <div className="text-block OswaldFont">
-                  <h6>SELECCIÓN DE OBJETOS</h6>
-                  <h6>QUE PUESTO DE UNA</h6>
-                  <h6>MANERA BIEN ODERNADA</h6>
+                  <h5>Selección de objetos que puesto de una manera bien ordernada</h5>
                 </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col s12 l5 roundedBorderBig right valign-wrapper">
-            <img src="/img/memeMcDonalds.png" className="roundedBorderBig anounceAmerica"></img>
+          <div className="roundedBorderBig col s12 l4 center-align">
+            <img src="/img/memeMcDonalds.png" className="roundedBorderBig anounceAmerica center"></img>
           </div>
         </div>
       </div>

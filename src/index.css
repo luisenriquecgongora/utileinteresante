@@ -5,9 +5,9 @@ body {
 }
 
 .anounceAmerica{
-  padding-top: 25px;
-  min-height: 300px;
-  max-width: 100%;
+  margin-top: 37px;
+  height: 250px;
+  width: 300px;
 }
 
 
@@ -44,7 +44,7 @@ body {
 }
 
 .OswaldFont{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'BebasNeue-Regular', sans-serif;
 }
 
 .OpenSansFont{
@@ -208,18 +208,23 @@ body {
   background-color: white !important;
   margin: 0px !important;
   padding-left: 5% !important;
-  width: 80% !important;
-  border-color: black !important;
+  width: 60% !important;
+  border-color: grey !important;
   border-style: solid !important;
   border-width: 1px 1px 1px 1px !important;
   border-radius: 5px 0px 0px 5px !important;
+}
+
+.no-marginTop{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
 }
 
 .okinputSubscribeFooter{
   position: absolute;
   background-color: black !important;
   color: white !important;
-  width: 20% !important;
+  width: 40% !important;
   height: 100% !important;
   border-width: 0px 0px 0px 0px !important;
   border-radius: 0px 5px 5px 0px !important;
@@ -270,8 +275,6 @@ body {
 .FixedHeightContainer{
   height: 330px;
   overflow-x: scroll !important;
-  overflow-y:auto;
-  white-space: nowrap !important;
 }
 
 .FixedHeightContainer::-webkit-scrollbar {
@@ -292,28 +295,38 @@ body {
   margin-right: 1%;
 }
 
+.text-size-meme{
+  font-size: 24px !important;
+}
+
 .text-block {
   position: absolute;
   width: 90%;
   height: 40%;
-  bottom: 10%;
-  left: 5%;
+  bottom: 30%;
+  left: 10%;
   color: white;
+}
+
+.innerText{
+  position: relative;
+
 }
 
 .backMemeDims{
   position: absolute;
-  width: 100%;
+  width: 194.43px;
+  height: 240px;
   top: 0px;
   left: 0px;
   border-radius: 10px;
-  height: 270px;
   -webkit-transition: height 0.1s;
   transition:height 0.1s;
 }
 
 .containerImage:hover > .backMemeDims{
-  height: 330px;
+  width: 210.64px;
+  height: 259.79px;
 }
 
 .purpleBack{
@@ -329,7 +342,8 @@ body {
 }
 
 .containerImage:hover > .memeContainer{
-  height: 330px;
+  width: 210.64px;
+  height: 259.79px
 }
 
 .textInsideDiv{
@@ -344,7 +358,8 @@ body {
 }
 
 .memeContainer{
-  height: 270px;
+  width: 194.07px;
+  height: 240px;
   overflow-x: scroll !important;
   -webkit-transition: height 0.1s;
   transition: height 0.1s;
@@ -376,10 +391,18 @@ body {
   padding-bottom: 0px !important;
 }
 
+.side300{
+}
+
 
 .small-text{
   font-size: small !important;
 }
+
+.small-textf{
+  font-size: large !important;
+}
+
 
 
 .xsmall-text{
@@ -499,7 +522,29 @@ body {
    z-index: -9999;
 }
 
-@media only screen and (min-width: 1200px) {
+.imageCardIn{
+  width: 150px;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .fullHeightCard{
+    min-height: 200px !important;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .fullHeightCard{
+    min-height: 250px !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .fullHeightCard{
+    min-height: 371.54px !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
     .littleSpaceTop{
       margin-top: 2%;
     }

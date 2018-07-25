@@ -29,6 +29,11 @@ class Blog extends Component {
               <Catcher></Catcher>
               <div className="col s12 m8 roundedBorder">
                 <ImageBlog></ImageBlog>
+                <div className="row">
+                  <div className="col s8">
+                    <h6 className="OswaldFont bold">TURISMO <span className="grey-text">03 JUNIO 2018</span></h6>
+                  </div>
+                </div>
                 <MiniDescription></MiniDescription>
                 <MiniLargeAd></MiniLargeAd>
                 <LargeDescription></LargeDescription>
@@ -41,8 +46,8 @@ class Blog extends Component {
                 <CommentSection></CommentSection>
               </div>
               <div className="col s12 m4">
-                <div class="card hide-on-med-and-down">
-                  <div class="card-image">
+                <div class="card hide-on-med-and-down center noleftpad">
+                  <div class="card-image side300">
                     <img src="/img/sideView.png"></img>
                   </div>
                 </div>
