@@ -4,7 +4,7 @@ Test Mockup developed for America TV
 ## Tutorial
 To run the app you must have Node Installed.
 
-1. Git clone https://github.com/luisenriquecgongora/beerexplorer
+1. Git clone https://github.com/luisenriquecgongora/utileinteresante
 2. Run: npm install && npm start
 
 # Demo
